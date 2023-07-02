@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+img {
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  left: -30%;
+}
+
+.content {
+  position: relative;
+  background-color: #031d26ef;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  border: 2px solid #031d26ef;
+  border-radius: 10% 25%;
+}
+
+#picture {
+  position: relative;
+  top: -4%;
+  left: -4%;
+  height: 300px;
+  width: 300px;
+  background-color: #031d26ef;
+  border: 10px solid #063f52ef;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px black;
+  overflow: hidden;
+}
