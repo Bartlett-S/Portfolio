@@ -8,11 +8,11 @@
   background: transparent;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   color: white;
@@ -34,27 +34,62 @@ img {
   left: -30%;
 }
 
+h1 {
+  font-size: 35pt;
+  padding-bottom: 1%;
+}
+
+h2 {
+  font-size: 35pt;
+}
+
+h3 {
+  font-size: 25pt;
+}
+
+h4 {
+  font-size: 15pt;
+}
+
+h5 {
+  font-size: 12pt;
+}
+
+p {
+  font-size: 13pt;
+}
+
+li {
+  font-size: 12pt;
+}
+
+ul > ul > li {
+  font-size: 10pt;
+  text-indent: 10%;
+}
+
 .page {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
 
 .outter-content {
   display: flex;
-  height: 30vh;
+  height: fit-content;
+  min-height: 20vh;
+  top: 0;
 }
 
 .content {
-  height: 100%;
-  margin-top: 0px;
-  position: relative;
-  top: 0px;
+  height: fit-content;
   background-color: #031d26ef;
   overflow: visible;
   border: 1px solid #031d26ef;
   border-radius: 0% 0% 50% 0%;
   filter: drop-shadow(10px 10px 10px black);
-  flex: 1;
+  padding-top: 1.5%;
 }
 
 #picture {
@@ -71,6 +106,9 @@ img {
 
 .about {
   display: flex;
+  padding-top: 2%;
+  padding-right: 3%;
+  padding-left: 3%;
   flex-direction: column;
   justify-content: center;
 }
@@ -86,7 +124,7 @@ img {
 
 #skill-list {
   padding-top: 1%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   display: flex;
   flex-direction: row;
 }
@@ -96,43 +134,59 @@ img {
 }
 
 .outter-education {
-  height: 40vh;
+  min-height: 28vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .education {
   width: 75%;
-  height: 50%;
   position: relative;
-  top: 25%;
+  top: 50%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: right;
   background-color: #031d26ef;
   overflow: visible;
   filter: drop-shadow(10px 10px 10px black);
-  margin-right: 0%;
-  padding-right: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   float: right;
   border: 1px solid #031d26ef;
   border-radius: 50% 0 0 50%;
 }
 
 .outter-work {
-  height: 30vh;
+  min-height: 34vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title {
+  padding-right: 10%;
+}
+
+.list {
+  padding-right: 5%;
 }
 
 .work {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-content: flex-end;
-  position: relative;
-  bottom: 0px;
-  height: 100%;
   width: 94%;
   background-color: #031d26ef;
   border-radius: 0% 50% 0% 0%;
   padding-left: 6%;
+  padding-top: 2%;
   justify-content: left;
+  flex: 1 1 auto;
 }
 
 .jobs {
@@ -156,17 +210,6 @@ img {
 
 #kilgore-list {
   font-size: 1rem;
-}
-
-.title {
-  font-size: 3rem;
-  padding-right: 10%;
-}
-.list {
-  padding-right: 2%;
-}
-.subtitle {
-  font-size: 1.5rem;
 }
 
 @media (max-width: 900px) {
