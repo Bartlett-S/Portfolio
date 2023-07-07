@@ -4,7 +4,6 @@
   border: 0;
   outline: 0;
   font-size: 100%;
-  vertical-align: baseline;
   background: transparent;
 }
 
@@ -85,11 +84,9 @@ ul > ul > li {
 .content {
   height: fit-content;
   background-color: #031d26ef;
-  overflow: visible;
   border: 1px solid #031d26ef;
   border-radius: 0% 0% 50% 0%;
   filter: drop-shadow(10px 10px 10px black);
-  padding-top: 1.5%;
 }
 
 #picture {
