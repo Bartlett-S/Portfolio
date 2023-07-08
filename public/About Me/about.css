@@ -209,7 +209,7 @@ ul > ul > li {
   font-size: 1rem;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1750px) {
   html {
     overflow: auto;
   }
@@ -256,8 +256,8 @@ ul > ul > li {
   }
 
   .outter-education {
-    margin-top: 9%;
-    margin-bottom: 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .list > h4 {
