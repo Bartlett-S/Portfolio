@@ -209,7 +209,78 @@ ul > ul > li {
   font-size: 1rem;
 }
 
+@media (max-width: 1400px) {
+  html {
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: 30pt;
+  }
+
+  h2 {
+    font-size: 30pt;
+  }
+
+  h3 {
+    font-size: 20pt;
+  }
+
+  h4 {
+    font-size: 13pt;
+  }
+
+  h5 {
+    font-size: 10pt;
+  }
+
+  p {
+    font-size: 11pt;
+  }
+
+  li {
+    font-size: 12pt;
+  }
+
+  .content {
+    border-radius: 0 0 0 0;
+  }
+  .education {
+    width: 100%;
+    border-radius: 0 0 0 0;
+    padding-left: 3%;
+    justify-content: center;
+  }
+  .work {
+    border-radius: 0 0 0 0;
+  }
+
+  .outter-education {
+    margin-top: 9%;
+    margin-bottom: 9%;
+  }
+
+  .list > h4 {
+    font-size: 15px;
+  }
+
+  #trane-title {
+    padding-right: 10%;
+  }
+
+  #kilgore-title {
+    padding-right: 10%;
+  }
+}
+
 @media (max-width: 900px) {
+  #skill-list-item {
+    flex-wrap: wrap;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
   .content {
     display: flex;
     flex-direction: column;
