@@ -87,12 +87,15 @@ a {
 
   p {
     font-size: 1.5rem;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .buttons {
     flex-direction: column;
   }
 
-  #content {
+  body {
+    overflow: hidden;
   }
 }
