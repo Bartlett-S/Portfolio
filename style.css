@@ -79,6 +79,8 @@ a {
 @media (max-width: 900px) {
   h1 {
     font-size: 3.5rem;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   h2 {
