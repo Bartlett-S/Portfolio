@@ -250,6 +250,7 @@ ul > ul > li {
     border-radius: 0 0 0 0;
     padding-left: 3%;
     justify-content: center;
+    float: none;
   }
   .work {
     border-radius: 0 0 0 0;
@@ -278,8 +279,11 @@ ul > ul > li {
     flex-wrap: wrap;
   }
 
-  .skills {
+  #skill-list {
     flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    padding-left: 5%;
   }
   .content {
     display: flex;
@@ -301,6 +305,48 @@ ul > ul > li {
   }
 
   .about {
-    padding-right: 8%;
+    width: 90%;
+  }
+
+  .outter-education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .education {
+    flex-direction: column;
+    text-align: center;
+    float: none;
+    padding: 10%;
+  }
+
+  .subtitle {
+    padding-top: 5%;
+  }
+
+  .work {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 55%;
+  }
+
+  .jobs {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+
+  #trane {
+    flex-direction: column;
+    padding-top: 2%;
+  }
+
+  #kilgore {
+    flex-direction: column;
+    padding-top: 5%;
+  }
+
+  #kilgore-list {
+    font-size: 1rem;
   }
 }
