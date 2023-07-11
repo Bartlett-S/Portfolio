@@ -275,7 +275,7 @@ ul > ul > li {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   #skill-list-item {
     flex-wrap: wrap;
   }

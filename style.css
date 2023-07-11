@@ -76,7 +76,7 @@ a {
   color: #031d26ef;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   h1 {
     font-size: 3.5rem;
     padding-left: 3%;
