@@ -328,7 +328,7 @@ ul > ul > li {
   .work {
     flex-direction: column;
     justify-content: center;
-    padding-left: 55%;
+    text-align: center;
   }
 
   .jobs {
@@ -346,7 +346,7 @@ ul > ul > li {
     padding-top: 5%;
   }
 
-  #kilgore-list {
-    font-size: 1rem;
+  ul {
+    list-style-position: inside;
   }
 }
