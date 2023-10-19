@@ -88,13 +88,15 @@ a {
 .outter {
   background-color: #031d26b9;
   width: 50%;
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .title {
   text-align: center;
   font-weight: bolder;
   font-size: 100px;
-  filter: drop-shadow(5px 5px 5px #0000008a);
 }
 
 .subtitle {
