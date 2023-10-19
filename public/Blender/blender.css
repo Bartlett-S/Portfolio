@@ -5,6 +5,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -83,6 +84,7 @@ body {
   justify-content: center;
   padding: 50px 8%;
   background-color: #031d26d3;
+  filter: drop-shadow(10px 10px 10px black);
   border-radius: 20px;
   margin-top: 1%;
   margin-bottom: 1%;
