@@ -17,7 +17,6 @@ body {
 a {
   text-decoration: none;
   font-size: 20px;
-  filter: drop-shadow(5px 5px 5px #0000008a);
   color: white;
   justify-content: center;
 }

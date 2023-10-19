@@ -32,7 +32,10 @@ p {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
+}
+.navbar {
+  font-size: 20px;
 }
 
 /*darken the video brightness*/
