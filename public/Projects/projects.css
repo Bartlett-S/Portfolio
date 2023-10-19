@@ -13,8 +13,18 @@ body {
   color: white;
   justify-content: center;
 }
+
 a {
   text-decoration: none;
+  font-size: 20px;
+  filter: drop-shadow(5px 5px 5px #0000008a);
+  color: white;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
 }
 
 .background-video {
@@ -82,13 +92,13 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 .outter {
   background-color: #031d26b9;
   filter: drop-shadow(10px 10px 10px black);
-  width: 50%;
+  width: 70%;
   border-radius: 20px;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -103,41 +113,15 @@ a {
 .subtitle {
   font-size: 40px;
   font-weight: bold;
-}
-
-.JavaScript {
-  padding: 10px;
-}
-
-.Java {
-  padding: 10px;
-}
-
-.CPP {
-  padding: 10px;
+  padding: 2%;
 }
 
 .picture {
   width: 400px;
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-a {
-  font-size: 20px;
   filter: drop-shadow(5px 5px 5px #0000008a);
-  color: white;
-  justify-content: center;
-}
-
-p {
-  text-align: center;
-  padding: 10px;
-}
-
-#picture {
-  filter: drop-shadow(5px 5px 5px #0000008a);
-  padding: 15px;
+  border-radius: 50px;
 }
 
 .row {
@@ -179,5 +163,8 @@ p {
 
   .navbar-links.active {
     display: flex;
+  }
+  .outter {
+    width: fit-content;
   }
 }
